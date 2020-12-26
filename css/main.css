@@ -1,0 +1,398 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+/*******************************************************************************
+*   Fonts
+*******************************************************************************/
+@font-face {
+  font-family: "droid";
+  src: url("../fonts/fonts-DroidKufi-Bold.eot");
+  src: url("../fonts/fonts-DroidKufi-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/fonts-DroidKufi-Bold.woff") format("woff"), url("../fonts/fonts-DroidKufi-Bold.ttf") format("truetype"), url("fonts/DroidKufi-Bold.svg#droid") format("svg");
+  font-weight: 200;
+}
+
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
+
+html{
+  font-size:16px;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  background-color: #212529;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  color: #eee;
+  /*padding-bottom: 20px;
+  line-height: 1;*/
+  line-height: inherit;
+
+}
+
+a{
+  color:#03A9F4;
+  transition: all .6s;
+}
+
+nav{
+  border-bottom: 1px solid #03A9F4 !important;
+  color: white;
+  background-color: rgba(0,0,0,0.5) !important;
+  padding: 20px !important;
+}
+
+nav a{
+  color:#fff !important;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover{
+  color:#03A9F4 !important;
+}
+
+header{
+  height: 100%;
+  background: url(../images/img-25060.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: 72px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header h2{
+  padding-top: 170px;
+  
+}
+
+header h2,h3{
+  color: #ddd;
+  text-align: center;
+  font-size: 21px;
+  line-height: 25px;
+}
+
+header h1{
+  color: #03A9F4;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Righteous', cursive;
+}
+
+header h3{
+  color:#f7f7f9;
+  text-shadow: 1px 1px #fff;
+  margin-top: 36px;
+  margin-bottom: 77px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Righteous', cursive;
+}
+
+
+
+header a{
+  color: #fff;
+  border-color: #f6f7f9;
+  background: #101010;
+  border: 2px solid white;
+  padding: 15px;
+  display: block;
+  margin: auto;
+  width: 200px;
+  border-radius: 55px;
+  padding: 19px;
+  box-shadow: 0px 1px 12px 4px #9E9E9E;
+}
+
+header a:hover{
+  color: #03a9f4;  
+  text-decoration: none;
+}
+
+section,header{
+  min-height: 700px;
+  text-align: center;
+}
+
+section img{
+  border: 4px solid white;
+  transition: all 0.5s;
+}
+
+section h1{
+  text-align: center;
+  font-size: 38px;
+  line-height: 42px;
+  margin-top: 56px;
+  margin-bottom: 25px;
+  color: #03a9f4;
+  text-transform: uppercase;
+}
+
+section h2{
+  color: white;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+
+
+section p{
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 16px;
+}
+
+section .right p{
+  text-align: left;
+  padding-left: 0;
+  font-size: 1.1rem;
+  line-height: 26px;
+}
+
+section i{
+  font-size: 50px !important;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  margin: 17px;
+}
+
+footer{
+  text-align: center;
+  color: white;
+  /*margin-bottom: 20px;*/
+  font-size: 14px;
+  margin-top: 20px;
+  background-color: #042d40;
+  height: 39px;
+  padding-top: 9px !important;
+}
+
+ 
+#contact-form{
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#contact-form textarea,
+#contact-form input[type=text],
+#contact-form input[type=email]{
+  background: #fff;
+  color: #000;
+}
+ 
+#about img{
+  width:100%;
+  margin-bottom: 20px;
+}
+
+.member{
+  background: #fff;
+  color: #333;
+  padding: 7px;
+  margin-bottom: 20px;
+}
+.member img{
+  width: 100%;
+  height: auto;
+}
+
+#team legend{
+  margin-top: -2px;
+  padding: 6px;
+}
+
+#team legend h2{
+  color: #333;
+}
+#team legend h4{
+  font-size: 13px;
+  margin-top: 4px;
+  color: #999;
+}
+#contact i{
+  font-size: 30px;
+}
+
+#map{
+  height: 307px;
+}
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.active{
+  color:#03A9F4 !important;
+}
+
+.service{
+  border-radius: 10px;
+  margin: 5px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  transition: all .5s;
+}
+
+.service i,.service p{
+  color: #607D8B;
+}
+
+.service h2{
+  color:#2d2d2d;
+}
+
+.testimonial{
+  background-color:#fff;
+  padding: 10px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  border-radius: 12px;
+}
+.testimonial img{
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 100px;
+  height: 100px;
+  margin-top: -57px;
+}
+.testimonial h1{
+  color: #333;
+  font-size: 1rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.testimonial h2{  
+  color: #000;
+  font-size: 0.9rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.testimonial p{
+  color:#666;
+}
+
+.work{
+  margin: 8px;
+}
+
+/*
+  Animations
+*/
+.translate{
+  transition: 0.5s;
+}
+.translate:hover{
+  transform: translate(0px,-10px);
+}
+
+ 
+@media (min-width: 960px){
+   
+  .navbar-nav{
+    margin-left: 300px;
+  }
+}
+
+@media (max-width: 720px){
+  header{
+    background-size: 200% 100%;
+  }
+  
+}
+
+@media (max-width: 420px){
+  header{
+    background-size: 300% 100%;
+  }
+  
+}
+
+.team-social {
+	background: #f3f6fa;
+	width: 50%;
+	padding-top: 4px;
+	margin: auto;
+	border-radius: 15px 15px 0px 0px;
+  margin-top: 10px;
+}
+
+.titleTeam{
+  color: #245180!important;
+}
+
+.pb2px{
+  padding-bottom: 2px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
