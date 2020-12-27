@@ -25,6 +25,7 @@ Ce projet est réalisé avec:
 
 
 ### Structure du dossier de projet :
+
 │   debug.log
 │   index.html
 │   README.md
