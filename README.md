@@ -25,3 +25,38 @@ Ce projet est réalisé avec:
 
 
 ### Structure du dossier de projet :
+│   debug.log
+│   index.html
+│   README.md
+│
+├───css
+│       main.css
+│
+├───images
+│   │   img-25060.jpg
+│   │   img-boss.jpg
+│   │   img-boss2.jpg
+│   │   img-boss3.jpg
+│   │   img-boss4.jpg
+│   │   img-company.jpg
+│   │   img-company2.jpg
+│   │   img-company3.jpg
+│   │   img-me.jpg
+│   │   img-me2.jpg
+│   │   img-me3.jpg
+│   │   img-me4.jpg
+│   │   img-work2.jpg
+│   │   img-work3.jpg
+│   │   img-work4.jpg
+│   │   service3D.jpg
+│   │   serviceAnimate.jpg
+│   │   serviceAppMobile.jpg
+│   │   serviceDesign.jpg
+│   │   serviceNetworking.png
+│   │   serviceWebDev.jpeg
+│   │
+│   └───favicons
+│           fav-icon.png
+│
+└───js
+        main.js
