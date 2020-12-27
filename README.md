@@ -31,7 +31,6 @@ Ce projet est réalisé avec:
 │   debug.log
 │   index.html
 │   README.md
-│   tree.txt
 │
 ├───css
 │       main.css
