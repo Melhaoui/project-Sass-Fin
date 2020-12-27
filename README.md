@@ -26,3 +26,6 @@ Ce projet est réalisé avec:
 
 
 ### Structure du dossier de projet :
+
+|
+|__index.html
