@@ -1,5 +1,9 @@
 $(function(){
-    
+
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");
+
+    //owl-carousel
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
@@ -29,6 +33,7 @@ $(function(){
     //Animate on Scroll
     new WOW().init();
     
+    //Function Animate on Scroll
     $(document).on('scroll',function(){
         var scroll = $(document).scrollTop();
         if(scroll > $("#home").offset().top){
@@ -43,5 +48,4 @@ $(function(){
         });
     });
 
-    
 });
